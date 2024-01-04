@@ -148,7 +148,7 @@
       });
 
       // Display the shortened URL in the #shortenedUrl div
-      var shortenedUrl = window.location.origin + '/redirect.html?freshurl=freshurl-' + key;
+      var shortenedUrl = window.location.origin + '/FreshUrl/redirect.html?freshurl=freshurl-' + key;
       document.getElementById("shortenedUrl").innerHTML = "<strong>Shortened URL:</strong> <a href='" + shortenedUrl + "' target='_blank'>" + shortenedUrl + "</a>";
 
       // Save the shortened URL to local storage
